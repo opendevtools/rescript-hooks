@@ -9,14 +9,13 @@ This is port of [@iteam/hooks](https://github.com/Iteam1337/hooks) for ReasonML/
 
 ### [useToggle](#useToggle)
 
-```reasonml
+```reason
 useToggle(~initialState: option(bool), unit): [bool, unit => unit]
 ```
 
 #### Example
 
-```reasonml
-
+```reason
 [@react.component]
 let make = () => {
   let (isAlive, toggleValue) = IteamHooks.useToggle();
@@ -34,13 +33,13 @@ let make = () => {
 
 Gets a value from a specified query param
 
-```reasonml
+```reason
 useQueryParam(~param: Js.Dict.key): string
 ```
 
 #### Example
 
-```reasonml
+```reason
 [@react.component]
 let make = () => {
   let param = IteamHooks.useQueryParam(~param="sweetParam");
