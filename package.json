@@ -1,0 +1,40 @@
+{
+  "name": "@iteam/bs-hooks",
+  "description": "A collection of reusable hooks for ReasonML",
+  "publishConfig": {
+    "access": "public"
+  },
+  "version": "0.0.0",
+  "scripts": {
+    "build": "bsb -make-world",
+    "start": "bsb -make-world -w",
+    "clean": "bsb -clean-world",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "webpack": "webpack -w",
+    "webpack:production": "NODE_ENV=production webpack",
+    "server": "webpack-dev-server"
+  },
+  "keywords": [
+    "Hooks",
+    "ReasonML"
+  ],
+  "author": "believer <rickard.laurin@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "query-string": "5.1.1",
+    "react": "16.8.1",
+    "react-dom": "16.8.1",
+    "reason-react": "0.7.0"
+  },
+  "devDependencies": {
+    "bs-platform": "5.0.3"
+  },
+  "homepage": "https://github.com/Iteam1337/bs-hooks#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Iteam1337/bs-hooks.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Iteam1337/bs-hooks/issues"
+  }
+}

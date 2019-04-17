@@ -1,0 +1,18 @@
+{
+  "name": "bs-hooks",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "package-specs": [
+    {
+      "module": "commonjs"
+    }
+  ],
+  "suffix": ".bs.js",
+  "bs-dependencies": ["reason-react"],
+  "refmt": 3
+}
