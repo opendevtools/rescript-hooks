@@ -2,6 +2,14 @@
 
 This is port of [@iteam/hooks](https://github.com/Iteam1337/hooks) for ReasonML/BuckleScript. Still a work in progress.
 
+## Installation
+
+```bash
+npm install @iteam/bs-hooks
+```
+
+Add `@iteam/bs-hooks` to `bs-dependencies` in `bsconfig.json`
+
 ## Available Hooks
 
 - [useToggle](#useToggle)
