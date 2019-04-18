@@ -11,7 +11,8 @@
     "clean": "bsb -clean-world",
     "webpack": "webpack -w",
     "webpack:production": "NODE_ENV=production webpack",
-    "server": "webpack-dev-server"
+    "server": "webpack-dev-server",
+    "prepare": "npm run build"
   },
   "keywords": [
     "Hooks",
