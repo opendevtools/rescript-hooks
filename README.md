@@ -18,7 +18,7 @@ Add `@iteam/bs-hooks` to `bs-dependencies` in `bsconfig.json`
 ### [useToggle](#useToggle)
 
 ```reason
-useToggle(~initialState: option(bool), unit): [bool, unit => unit]
+useToggle(~initialState: option(bool), unit): (bool, unit => unit)
 ```
 
 #### Example
