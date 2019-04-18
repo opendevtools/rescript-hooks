@@ -20,14 +20,18 @@
   ],
   "author": "believer <rickard.laurin@gmail.com>",
   "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.x",
+    "reason-react": ">=0.7.0"
+  },
   "dependencies": {
-    "query-string": "5.1.1",
-    "react": "16.8.1",
-    "react-dom": "16.8.1",
-    "reason-react": "0.7.0"
+    "query-string": "5.1.1"
   },
   "devDependencies": {
-    "bs-platform": "5.0.3"
+    "bs-platform": "5.0.3",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "reason-react": "0.7.0"
   },
   "homepage": "https://github.com/Iteam1337/bs-hooks#readme",
   "repository": {
