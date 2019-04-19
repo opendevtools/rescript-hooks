@@ -21,6 +21,8 @@ Add `@iteam/bs-hooks` to `bs-dependencies` in `bsconfig.json`
 useToggle(~initialState: option(bool), unit): (bool, unit => unit)
 ```
 
+`initialState` is set to `false` by default, that's why it's an `option(bool)`
+
 #### Example
 
 ```reason
