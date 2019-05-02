@@ -1,6 +1,6 @@
 # Iteam Hooks for ReasonML
 
-This is port of [@iteam/hooks](https://github.com/Iteam1337/hooks) for ReasonML/BuckleScript. Still a work in progress.
+This is a port of [@iteam/hooks](https://github.com/Iteam1337/hooks) for ReasonML/BuckleScript. Still a work in progress.
 
 ## Installation
 
