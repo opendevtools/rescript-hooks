@@ -1,9 +1,9 @@
 type hookResult('a) = {. "result": React.Ref.t('a)};
 
-[@bs.module "react-hooks-testing-library"]
+[@bs.module "@testing-library/react-hooks"]
 external renderHook: (unit => 'a) => hookResult('a) = "renderHook";
 
-[@bs.module "react-hooks-testing-library"]
+[@bs.module "@testing-library/react-hooks"]
 external act: (unit => unit) => unit = "act";
 
 open Jest;
