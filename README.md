@@ -1,5 +1,7 @@
 # Iteam Hooks for ReasonML
 
+[![](https://github.com/Iteam1337/bs-hooks/workflows/Release/badge.svg)](https://github.com/Iteam1337/bs-hooks/actions?workflow=Release)
+
 This is a port of [@iteam/hooks](https://github.com/Iteam1337/hooks) for ReasonML/BuckleScript. Still a work in progress.
 
 ## Installation
