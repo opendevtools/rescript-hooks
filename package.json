@@ -13,7 +13,9 @@
     "webpack:production": "NODE_ENV=production webpack",
     "server": "webpack-dev-server",
     "prepare": "npm run build",
-    "test:watch": "jest --watch"
+    "test": "is-ci \"test:ci\" \"test:watch\"",
+    "test:watch": "jest --watch",
+    "test:ci": "jest"
   },
   "keywords": [
     "Hooks",
@@ -29,15 +31,18 @@
     "query-string": "5.1.1"
   },
   "devDependencies": {
-    "@babel/core": "7.4.4",
-    "@babel/preset-env": "7.4.4",
-    "@glennsl/bs-jest": "0.4.8",
-    "babel-jest": "24.7.1",
-    "bs-platform": "5.0.3",
-    "react": "16.8.6",
-    "react-dom": "16.8.6",
-    "react-hooks-testing-library": "0.5.0",
-    "react-test-renderer": "16.8.6",
+    "@babel/core": "7.6.4",
+    "@babel/preset-env": "7.6.3",
+    "@glennsl/bs-jest": "0.4.9",
+    "@semantic-release/changelog": "3.0.4",
+    "@semantic-release/git": "7.0.16",
+    "@testing-library/react-hooks": "2.0.3",
+    "babel-jest": "24.9.0",
+    "bs-platform": "5.0.6",
+    "is-ci-cli": "2.0.0",
+    "react": "16.10.2",
+    "react-dom": "16.10.2",
+    "react-test-renderer": "16.10.2",
     "reason-react": "0.7.0"
   },
   "homepage": "https://github.com/Iteam1337/bs-hooks#readme",
