@@ -1,17 +1,14 @@
-# Iteam Hooks for ReasonML
+# Hooks for ReasonML
 
-[![](https://github.com/Iteam1337/bs-hooks/workflows/Release/badge.svg)](https://github.com/Iteam1337/bs-hooks/actions?workflow=Release)
-[![npm version](https://badge.fury.io/js/%40iteam%2Fbs-hooks.svg)](https://badge.fury.io/js/%40iteam%2Fbs-hooks)
-
-This is a port of [@iteam/hooks](https://github.com/Iteam1337/hooks) for ReasonML/BuckleScript. Still a work in progress.
+This is a port of [@opendevtools/hooks](https://github.com/opendevtools/hooks) for ReasonML/BuckleScript. Still a work in progress.
 
 ## Installation
 
 ```bash
-npm install @iteam/bs-hooks
+npm install @opendevtools/bs-hooks
 ```
 
-Add `@iteam/bs-hooks` to `bs-dependencies` in `bsconfig.json`
+Add `@opendevtools/bs-hooks` to `bs-dependencies` in `bsconfig.json`
 
 ## Available Hooks
 
