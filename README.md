@@ -5,10 +5,10 @@ This is a port of [@opendevtools/hooks](https://github.com/opendevtools/hooks) f
 ## Installation
 
 ```bash
-npm install @opendevtools/bs-hooks
+npm install @opendevtools/rescript-hooks
 ```
 
-Add `@opendevtools/bs-hooks` to `bs-dependencies` in `bsconfig.json`
+Add `@opendevtools/rescript-hooks` to `bs-dependencies` in `bsconfig.json`
 
 ## Available Hooks
 
@@ -28,7 +28,7 @@ useToggle(~initialState: option(bool), unit): (bool, unit => unit)
 ```reason
 [@react.component]
 let make = () => {
-  let (isAlive, toggleValue) = IteamHooks.useToggle();
+  let (isAlive, toggleValue) = OpenDevToolsHooks.useToggle();
 
   <button onClick={_ => toggleValue()}>
     {
@@ -52,7 +52,7 @@ useQueryParam(~param: Js.Dict.key): string
 ```reason
 [@react.component]
 let make = () => {
-  let param = IteamHooks.useQueryParam(~param="sweetParam");
+  let param = OpenDevToolsHooks.useQueryParam(~param="sweetParam");
 
   <div>
     {"That's a nice query param with the value " ++ param |> React.string}
