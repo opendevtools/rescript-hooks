@@ -1,6 +1,6 @@
 # Hooks for ReasonML
 
-This is a port of [@opendevtools/hooks](https://github.com/opendevtools/hooks) for ReasonML/BuckleScript. Still a work in progress.
+This is a port of [@opendevtools/hooks](https://github.com/opendevtools/hooks) for ReasonML/BuckleScript. This project was initially developed [@iteam1337](https://github.com/Iteam1337).
 
 ## Installation
 
