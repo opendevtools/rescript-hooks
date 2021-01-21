@@ -25,18 +25,13 @@ useToggle(~initialState: option(bool), unit): (bool, unit => unit)
 
 #### Example
 
-```reason
-[@react.component]
+```rescript
+@react.component
 let make = () => {
-  let (isAlive, toggleValue) = OpenDevToolsHooks.useToggle();
+  let (isAlive, toggleValue) = OpenDevToolsHooks.useToggle()
 
-  <button onClick={_ => toggleValue()}>
-    {
-      isAlive ? {j|🚀|j} : {j|😴|j};
-    }
-    ->React.string
-  </button>;
-};
+  <button onClick={_ => toggleValue()}> {(isAlive ? `🚀` : `😴`)->React.string} </button>
+}
 ```
 
 ### [useQueryParam](#useQueryParam)
@@ -49,14 +44,11 @@ useQueryParam(~param: Js.Dict.key): string
 
 #### Example
 
-```reason
-[@react.component]
+```rescript
+@react.component
 let make = () => {
-  let param = OpenDevToolsHooks.useQueryParam(~param="sweetParam");
+  let param = OpenDevToolsHooks.useQueryParam(~param="sweetParam")
 
-  <div>
-    {"That's a nice query param with the value " ++ param |> React.string}
-  </div>;
-};
-
+  <div> {"That's a nice query param with the value " ++ param |> React.string} </div>
+}
 ```
