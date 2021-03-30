@@ -28,7 +28,7 @@
     "reason-react": ">=0.7.0"
   },
   "dependencies": {
-    "query-string": "6.13.8"
+    "query-string": "7.0.0"
   },
   "devDependencies": {
     "@babel/core": "7.13.14",
