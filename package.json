@@ -38,9 +38,9 @@
     "babel-jest": "^26.6.3",
     "bs-platform": "9.0.2",
     "is-ci-cli": "2.2.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-test-renderer": "^17.0.1",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "react-test-renderer": "^18.0.0",
     "reason-react": "^0.9.1",
     "regenerator-runtime": "0.13.7"
   },
